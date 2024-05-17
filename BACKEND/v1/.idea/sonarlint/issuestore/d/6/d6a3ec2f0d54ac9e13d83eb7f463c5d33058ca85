@@ -1,0 +1,27 @@
+
+l
+java:S36559"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(æÀËS8ùÜô©è1
+r
+java:S3655U"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(°Ùüáûÿÿÿÿ8øÜô©è1
+r
+java:S3655E"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(°Ùüáûÿÿÿÿ8ùÜô©è1
+r
+java:S3655&"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(³Öï•úÿÿÿÿ8ùÜô©è1
+C
+java:S1452$"&Remove usage of generic wildcard type.(òñŸà8üÕ”è1
+C
+java:S14522"&Remove usage of generic wildcard type.(íğ€í8 üÕ”è1
+H
+java:S1452B"&Remove usage of generic wildcard type.(–¿„Çùÿÿÿÿ8 ®Ü”è1
+H
+java:S1452R"&Remove usage of generic wildcard type.(èÇÓÈùÿÿÿÿ8¢®Ü”è1
+a
+java:S1128"DRemove this unused import 'com.tericcabrel.authapi.dtos.ProjectDto'.(òËŒõ8›İô©è1
+g
+java:S1128"ERemove this unused import 'com.tericcabrel.authapi.entities.Company'.(÷½Ìûÿÿÿÿ8›İô©è1
+_
+java:S1128	"BRemove this unused import 'com.tericcabrel.authapi.entities.User'.(º­‚8›İô©è1
+j
+java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñıÓ“8›İô©è1
+y
+java:S1128"\Remove this unused import 'org.springframework.security.core.context.SecurityContextHolder'.(ŒÄæë8İô©è1

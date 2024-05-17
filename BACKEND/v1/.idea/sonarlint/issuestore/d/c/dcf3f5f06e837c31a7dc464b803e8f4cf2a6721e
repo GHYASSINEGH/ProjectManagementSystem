@@ -1,0 +1,21 @@
+
+r
+java:S3655R"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‚¼µÌúÿÿÿÿ8Ã¾˜šõ1
+r
+java:S3655F"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰ÎÒ”úÿÿÿÿ8Ã¾˜šõ1
+r
+java:S3655%"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Óû•åûÿÿÿÿ8Ã¾˜šõ1
+r
+java:S36559"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰ÎÒ”úÿÿÿÿ8Ã¾˜šõ1
+C
+java:S1452""&Remove usage of generic wildcard type.(àä–›8É¾˜šõ1
+j	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÌÌ¶8ÎÏàÿð1
+C
+java:S14527"&Remove usage of generic wildcard type.(·ÌÌ¶8Ò¾˜šõ1
+o	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐÏÞ·ùÿÿÿÿ8ÏÏàÿð1
+^
+java:S1854E"ARemove this useless assignment to local variable "notifications".(ˆ¶ñÏ8ÏÏàÿð1
+H
+java:S1452D"&Remove usage of generic wildcard type.(ÐÏÞ·ùÿÿÿÿ8Õ¾˜šõ1
+C
+java:S1452O"&Remove usage of generic wildcard type.(øæ€¿8Ù¾˜šõ1

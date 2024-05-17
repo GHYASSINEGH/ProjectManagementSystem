@@ -1,0 +1,36 @@
+<div class="card">
+    <div class="card-body">
+        <h3>Create Task</h3>
+  
+        <form [formGroup]="form">
+            <div class="mb-3">
+                <label for="">Title</label>
+                <input type="text" class="form-control" formControlName="title">
+            </div>
+            <div class="mb-3">
+                <label for="">Description</label>
+                <input type="text" class="form-control" formControlName="description">
+            </div>
+
+            <div class="mb-3">
+                <label for="">Employee</label>
+                <select class="form-select" formControlName="employee">
+                    <option value="">Please choose an employee</option>
+                    <option *ngFor="let e of employees" [value]="e.id" (click)="onEmployeeClick(e.id)">{{ e.user.fullName }}</option>
+                </select>
+            </div>
+            
+            <div class="mb-3">
+                <button type="button" class="btn btn-success" [disabled]="!form.valid" (click)="saveTask( form.value.employee)">Create Task</button>
+            </div>
+  
+            <div class="alert alert-success" *ngIf="success !== ''">
+                {{ success }}
+            </div>
+  
+            <div class="alert alert-danger" *ngIf="error !== ''">
+                {{ error }}
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+
+M
+java:S1066"/Merge this if statement with the enclosing one.(ç¡‘8¥ê¿õ1
+
+java:S1488<"]Immediately return this expression instead of assigning it to the temporary variable "chats".(œäû¥ûÿÿÿÿ8¥ê¿õ1
+k
+java:S3655¡"HCall "chat.isPresent()" or "!chat.isEmpty()" before accessing the value.(à„Şøÿÿÿÿ8¤øğûõ1
+G	java:S106P"+Replace this use of System.out by a logger.(êŸÄ›8°ê¿õ1
+G	java:S106T"+Replace this use of System.out by a logger.(Û‚ë¦8²ê¿õ1

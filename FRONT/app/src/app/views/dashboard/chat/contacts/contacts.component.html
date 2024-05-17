@@ -1,0 +1,14 @@
+
+
+<ol class="alternating-colors" *ngIf="employees && employees.length > 0">
+    <strong>Employees List</strong>
+    <li *ngFor="let employee of employees" (click)="createChat(employee.user.id)" style="cursor: pointer;">
+        <strong>{{ employee.user.fullName}}</strong>
+        <p>{{ employee.user.email}}</p>
+    </li>
+   
+</ol>
+<div *ngIf="employees && employees.length === 0">
+    <p>No Employee found.</p>
+</div>
+

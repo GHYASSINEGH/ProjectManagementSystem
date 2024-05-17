@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+    width: calc(100% - 250px); /* Adjust width according to side menu width */
+    margin-left: 250px; /* Adjust margin according to side menu width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.sidenav {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    z-index: 999; /* Ensure it stays below the header */
+}
+
+.sidenav-collapsed {
+    width: 80px; /* Adjust width for collapsed state */
+}
+
+.sidenav .sidenav-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav .sidenav-nav-item {
+    padding: 8px 16px;
+}
+
+.sidenav .sidenav-nav-item .sidenav-nav-link {
+    color: #818181;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidenav .sidenav-nav-item .sidenav-nav-link.active {
+    color: white;
+}

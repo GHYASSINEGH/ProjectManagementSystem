@@ -1,0 +1,35 @@
+
+l
+java:S1192y"ODefine a constant instead of duplicating this literal "Task not found" 3 times.(è³€Ë8‰ĞËŸõ1
+s
+java:S3655±"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(œöÛ¨ûÿÿÿÿ8¥ĞËŸõ1
+r
+java:S3655t"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(œöÛ¨ûÿÿÿÿ8¥ĞËŸõ1
+r
+java:S3655e"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(œöÛ¨ûÿÿÿÿ8¥ĞËŸõ1
+s
+java:S3655£"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(œöÛ¨ûÿÿÿÿ8¥ĞËŸõ1
+s
+java:S3655È"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(œöÛ¨ûÿÿÿÿ8¥ĞËŸõ1
+m
+java:S3655'"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÜÈ›©8¥ĞËŸõ1
+H
+java:S1452%"&Remove usage of generic wildcard type.(É£Óûÿÿÿÿ8©ĞËŸõ1
+C
+java:S14522"&Remove usage of generic wildcard type.(¨õ‚8«ĞËŸõ1
+H
+java:S1452b"&Remove usage of generic wildcard type.(â¬äøÿÿÿÿ8­ĞËŸõ1
+X	java:S125Q"<This block of commented-out lines of code should be removed.(¨õ‚8®ĞËŸõ1
+H
+java:S1452q"&Remove usage of generic wildcard type.(Ä»‘ÿÿÿÿÿ8¯ĞËŸõ1
+C
+java:S1452"&Remove usage of generic wildcard type.(ÆÙô8±ĞËŸõ1
+Y	java:S125•"<This block of commented-out lines of code should be removed.(–ê¼8µĞËŸõ1
+I
+java:S1452 "&Remove usage of generic wildcard type.(ä‡Å©ùÿÿÿÿ8¶ĞËŸõ1
+D
+java:S1452°"&Remove usage of generic wildcard type.(à÷ÿÆ8¸ĞËŸõ1
+I
+java:S1452Å"&Remove usage of generic wildcard type.(ú Š°ıÿÿÿÿ8»ĞËŸõ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÄŒÓ õ1

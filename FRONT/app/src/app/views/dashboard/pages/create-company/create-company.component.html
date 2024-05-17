@@ -1,0 +1,59 @@
+<div class="card">
+    <div class="card-body">
+        <h3>Create company</h3>
+
+
+ 
+        <form [formGroup]="form"  (ngSubmit)="save()" >
+            <div class="mb-3">
+                <label for="">Name</label>
+                <input type="text" class="form-control" formControlName="name">
+            </div>
+            <div class="mb-3">
+                <label for="">Address</label>
+                <input type="text" class="form-control" formControlName="address">
+            </div>
+            <div class="mb-3">
+                <label for="">Social Number</label>
+                <input type="text" class="form-control" formControlName="social">
+            </div>
+            <div class="mb-3">
+                <label for="">Email</label>
+                <input type="text" class="form-control" formControlName="email">
+            </div>
+            <div class="mb-3">
+                <label for="">Phone</label>
+                <input type="text" class="form-control" formControlName="phone">
+            </div>
+            <div class="mb-3">
+                <label for="">Fax</label>
+                <input type="text" class="form-control" formControlName="fax">
+            </div>
+            <div class="mb-3">
+                <label for="">Activity sector</label>
+                <input type="text" class="form-control" formControlName="activity_sector">
+            </div>
+            
+            <div class="mb-3">
+                <label for="">Description</label>
+                <textarea class="form-control" formControlName="descreption"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-success" [disabled]=" ! form.valid ">Create company</button>
+            </div>
+
+            <div class="alert alert-success" *ngIf=" success != '' ">
+                {{ success }}
+            </div>
+
+            <div class="alert alert-danger" *ngIf=" error != '' ">
+                {{ error }}
+            </div>
+
+            
+            
+
+        </form>
+    </div>
+</div>

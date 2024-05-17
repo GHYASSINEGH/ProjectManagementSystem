@@ -1,0 +1,42 @@
+# Database
+spring.datasource.url: jdbc:mysql://localhost:3306/yassineChatApp?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+spring.datasource.username: root
+spring.datasource.password:
+
+# Server
+SERVER_PORT: 8080
+ACTIVE_PROFILE: dev
+
+#Server
+
+
+# Email Config
+EMAIL_HOST: smtp.gmail.com
+EMAIL_PORT: 587
+EMAIL_ID: <YOUR EMAIL ADDRESS>
+EMAIL_PASSWORD: <YOUR PASSWORD>
+VERIFY_EMAIL_HOST: http://localhost:${SERVER_PORT}
+
+spring.jpa.hibernate.ddl-auto: update
+
+security.jwt.secret-key: 3cfa76ef14937c1c0ea519f8fc057a80fcd04a7420f8e8bcd0a7567c272e007b
+# 24h in milliseconds
+security.jwt.expiration-time: 86400000
+
+spring.mail.host: smtp.office365.com
+spring.mail.port: 587
+spring.mail.username: linetolinecomp@outlook.com
+spring.mail.password: twrslvvhzwweeema
+spring:
+  mail:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+

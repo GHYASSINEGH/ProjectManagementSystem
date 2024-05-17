@@ -1,0 +1,29 @@
+<div class="card" *ngIf="release != null">
+    <div class="card-body">
+
+
+
+
+        <div style="display: inline-block; background-color: #007bff; color: #fff; padding: 5px 10px; border-radius: 5px;">{{ release.title }}</div>
+
+        <h3>{{ release.description}}</h3>
+        <p class="text-muted mb-0">
+            {{ release.startDate }}
+        </p>
+        <p class="text-muted mb-0">
+            {{ release.endDate }} 
+        </p>
+      
+
+
+
+        
+
+    </div>
+</div> 
+<div class="mb-3">
+    <a routerLink="/dashboard/sprints/add/{{ release.id }}/{{idProject}}" class="btn btn-sm btn-primary">Create Sprint</a> 
+</div>
+  
+  
+<app-sprint-list></app-sprint-list>

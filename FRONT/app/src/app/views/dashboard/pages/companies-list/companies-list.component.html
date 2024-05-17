@@ -1,0 +1,55 @@
+<div class="card">
+    <div class="card-body">
+        <h3>My companies</h3>
+
+        <div class="mb-3">
+            <a routerLink="/dashboard/companies/add" class="btn btn-sm btn-primary">Create company</a> 
+        </div>
+
+        <div class="alert alert-warning mb-3"   *ngIf=" companies.length == 0 ">
+            Looks like you need to create your first company to start using our services.
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 mb-3"  *ngFor="let c of companies">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h3>{{ c.name }}</h3>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-sm btn-danger" (click)="deleteCompany(c.id)">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <p class="mb-0">
+                            <strong>
+                                {{ c.activity_sector }}
+                            </strong>
+                        </p>
+                        <p class="text-muted mb-0">
+                            {{ c.email }}
+                        </p>
+                        <p class="text-muted">
+                            {{ c.phone }}
+                        </p>
+
+                        <button class="btn btn-outline-primary btn-sm"   [routerLink]="  '/dashboard/companies/details/'+c.id  "   >More details</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+</div>

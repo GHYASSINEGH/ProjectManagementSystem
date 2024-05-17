@@ -1,0 +1,35 @@
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table header */
+th {
+  background-color: #282d28bd;
+  color: #fff; /* Add text color for better visibility */
+}
+
+/* Style the table header and cells */
+th, td {
+  border: 1px solid #b6bfb9;
+  text-align: left;
+  padding: 12px; /* Increase padding for better spacing */
+}
+
+/* Style the table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Style the buttons */
+.btn-primary,
+.btn-info,
+.btn-danger {
+  margin-right: 5px; 
+}

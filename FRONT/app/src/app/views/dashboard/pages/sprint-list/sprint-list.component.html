@@ -1,0 +1,25 @@
+<div class="alert alert-warning mb-3"   *ngIf=" sprints.length == 0 ">
+     Create Your First Sprint.
+</div>
+<div class="mb-3">
+    
+  <div class="row">
+    <div class="col-md-4" *ngFor="let Sprint of sprints">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ Sprint.title }}</h5>
+          <p class="card-text">Description: {{ Sprint.description }}</p>
+          <p class="card-text">Start Date: {{ Sprint.creationDate }}</p>
+          <p class="card-text">End Date: {{ Sprint.endDate }}</p>
+          <button class="btn btn-sm btn-danger" (click)="deleteSprint(Sprint.id)">
+            <i class="bi bi-trash"></i> Delete
+          </button>
+          <button class="btn btn-outline-primary btn-sm" [routerLink]="'/dashboard/sprints/details/' + Sprint.id +'/release/'+idRelease +'/project/'+idProject ">
+                                                                                                    
+            Infos
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

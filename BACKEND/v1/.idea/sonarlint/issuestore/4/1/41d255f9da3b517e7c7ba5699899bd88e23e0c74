@@ -1,0 +1,21 @@
+
+m
+java:S3655r"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(åŸì8ìŠĞã1
+f
+java:S3655\"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(åŸì
+A
+java:S1452"&Remove usage of generic wildcard type.(‚ÏÎûÿÿÿÿ
+<
+java:S1452."&Remove usage of generic wildcard type.(äïŠü
+U
+java:S1854Z"?Remove this useless assignment to local variable "currentUser".(ÊĞ³—
+A
+java:S1452X"&Remove usage of generic wildcard type.(ÃÔí³ÿÿÿÿÿ
+F
+java:S1481Z"0Remove this unused "currentUser" local variable.(ÊĞ³—
+P	java:S125_"<This block of commented-out lines of code should be removed.(ÒËş
+<
+java:S1452k"&Remove usage of generic wildcard type.(©ûÍ
+Q	java:S125l"<This block of commented-out lines of code should be removed.(éá˜Š
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8ƒŸŠĞã1

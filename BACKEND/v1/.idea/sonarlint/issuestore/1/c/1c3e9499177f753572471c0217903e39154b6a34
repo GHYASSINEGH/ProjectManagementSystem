@@ -1,0 +1,29 @@
+
+v
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÚæÓ8ô­ªø1
+v
+java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÚæÓ8ô­ªø1
+v
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÚæÓ8ô­ªø1
+v
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ùğ²°8ô­ªø1
+v
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÚæÓ8ô­ªø1
+v
+java:S2293|"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ÚæÓ8ô­ªø1
+w
+java:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê‹Õ8ô­ªø1
+r	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ñµàıÿÿÿÿ8õ­ªø1
+m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‡˜û8õ­ªø1
+r	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºüñ•ıÿÿÿÿ8õ­ªø1
+]	java:S125*"<This block of commented-out lines of code should be removed.(¼éäÄüÿÿÿÿ8’®ªø1
+L	java:S1067"+Replace this use of System.out by a logger.(ò²í¾øÿÿÿÿ8”®ªø1
+¬
+java:S1130@"‰Remove the declaration of thrown exception 'com.tericcabrel.authapi.exceptions.UserException', as it cannot be thrown from method's body.(¯ÒİŒÿÿÿÿÿ8•®ªø1
+¬
+java:S1130R"‰Remove the declaration of thrown exception 'com.tericcabrel.authapi.exceptions.UserException', as it cannot be thrown from method's body.(£Ñµàıÿÿÿÿ8—®ªø1
+H
+java:S1452R"&Remove usage of generic wildcard type.(£Ñµàıÿÿÿÿ8—®ªø1
+o
+java:S6204^"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8˜®ªø1
+]	java:S125e"<This block of commented-out lines of code should be removed.(¡Ûƒøÿÿÿÿ8™®ªø1

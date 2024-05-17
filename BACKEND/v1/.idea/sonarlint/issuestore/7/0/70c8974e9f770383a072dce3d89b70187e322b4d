@@ -1,0 +1,17 @@
+
+{
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(×åú„ıÿÿÿÿ8›İÍ¿õ1
+{
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(­âîÜıÿÿÿÿ8›İÍ¿õ1
+{
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿³§Íúÿÿÿÿ8›İÍ¿õ1
+v
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘šğµ8›İÍ¿õ1
+j
+java:S36551"HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(‚Èœ²üÿÿÿÿ8±×ôÑõ1
+¬
+java:S1130"‰Remove the declaration of thrown exception 'com.tericcabrel.authapi.exceptions.UserException', as it cannot be thrown from method's body.(Ê‡€ßüÿÿÿÿ8ÓÃŒº÷1
+L	java:S106#"+Replace this use of System.out by a logger.(Ê¥ùûÿÿÿÿ8¢İÍ¿õ1
+]	java:S1250"<This block of commented-out lines of code should be removed.(’äÍ³øÿÿÿÿ8¥İÍ¿õ1
+k
+java:S1128"IRemove this unused import 'com.tericcabrel.authapi.services.UserService'.(ß†€ÿÿÿÿÿ8ãÃŒº÷1

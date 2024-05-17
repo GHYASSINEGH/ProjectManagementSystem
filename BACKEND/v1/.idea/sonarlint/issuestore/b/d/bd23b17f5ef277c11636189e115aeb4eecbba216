@@ -1,0 +1,15 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¸¥ã·
+‚
+java:S1488a"eImmediately return this expression instead of assigning it to the temporary variable "searchedUsers".(Ìÿ–8ê¨õ¾õ1
+‚
+java:S1488g"eImmediately return this expression instead of assigning it to the temporary variable "searchedUsers".(‘Œı8Åòõ¾õ1
+>
+java:S5411"(Use a primitive boolean expression here.(¸¥ã·
+c
+java:S2789K"FEnsure this "Optional" could never be null and remove this null-check.(ºá8‰ú¿õ1
+M
+java:S1135$"2Complete the task associated to this TODO comment.(Ñ“İ®üÿÿÿÿ
+]	java:S125&"<This block of commented-out lines of code should be removed.(èâ‘¯şÿÿÿÿ8ÈùÆÇô1
+G	java:S106E"+Replace this use of System.out by a logger.(ÓŸ×©8ƒ‰è¾õ1
+L	java:S106N"+Replace this use of System.out by a logger.(·‹šûÿÿÿÿ8„‰è¾õ1

@@ -1,0 +1,71 @@
+.notifications-container {
+    margin-top: 20px;
+  }
+  
+  .notifications-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .notification-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .notification-item {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-item .notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification-item .notification-header h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .notification-item .reception-date {
+    font-size: 0.9em;
+    margin: 0;
+  }
+  
+  .notification-description p {
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Optional: Hover effect */
+  .notification-item:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notifications-title {
+    text-align: center;
+  }
+  
+  .notifications-title h2 {
+    font-size: 2em;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notifications-title h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #007bff; /* or any other color you prefer */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  

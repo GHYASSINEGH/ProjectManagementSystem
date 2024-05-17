@@ -1,0 +1,30 @@
+<div class="alert alert-warning mb-3" *ngIf="tasks.length === 0">
+    You are Not affected to any task yet
+</div>
+<div class="mb-3">
+    <ng-container *ngFor="let status of ['OnHold', 'InProgress', 'Done']">
+        <h4 [ngClass]="getStatusClass(status)">{{ status }}</h4>
+        <div class="row">
+            <ng-container *ngIf="tasksByStatus(status).length > 0; else emptyStatus">
+                <div *ngFor="let task of tasks | filterByStatus:status" class="col-md-3">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ task.title }}</h5>
+                            <h6 class="card-title">{{ task.description }}</h6>
+                            <select class="form-control" #selectElement (change)="changeTaskStatus(task.id, selectElement.value)">
+                                <option *ngFor="let optionStatus of ['OnHold', 'InProgress', 'Done']" [value]="optionStatus" [selected]="optionStatus === status">{{ optionStatus }}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-template #emptyStatus>
+                <div class="col-md-3">
+                    <p>No tasks in this status</p>
+                    <div class="card mb-3" style="visibility: hidden;"></div>
+                </div>
+            </ng-template>
+        </div>
+    </ng-container>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="message-list">
+    <div *ngFor="let message of messages" class="message">
+      <p>{{ message.content }}</p>
+      <span class="timestamp" *ngIf="message.createdAt">{{ message.createdAt }}</span>
+      <button (click)="deleteMessage(message.id)">Delete</button>
+    </div>
+  </div>
+  
+  <div class="new-message">
+    <textarea [value]="newMessageContent" (input)="onMessageChange($event)" placeholder="Type your message"></textarea>
+    <button (click)="sendMessage()">Send</button>
+  </div>
+  

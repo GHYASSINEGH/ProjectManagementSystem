@@ -1,0 +1,30 @@
+
+<div class="card" *ngIf="sprint != null">
+    <div class="card-body">
+
+
+
+
+        <div style="display: inline-block; background-color: #007bff; color: #fff; padding: 5px 10px; border-radius: 5px;">{{ sprint.title }}</div>
+
+        <h3>{{ sprint.description}}</h3>
+        <p class="text-muted mb-0">
+            {{ sprint.creationDate }}
+        </p>
+        <p class="text-muted mb-0">
+            {{ sprint.endDate }} 
+        </p>
+      
+
+
+
+        
+
+    </div>
+</div> 
+<div class="mb-3">
+    <a routerLink="/dashboard/tasks/add/sprint/{{ sprint.id }}/release/{{idRelease}}/project/{{idProject}}" class="btn btn-sm btn-primary">Add Task</a> 
+</div>
+  
+  
+<app-task-list></app-task-list>

@@ -1,0 +1,17 @@
+
+r
+java:S36557"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ó¿œ“øÿÿÿÿ8¡ğ³é1
+m
+java:S3655C"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(·¾ï8Ÿğ³é1
+m
+java:S3655S"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(·¾ï8¡ğ³é1
+r
+java:S3655$"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Á«›ÿüÿÿÿÿ8 ğ³é1
+H
+java:S1452""&Remove usage of generic wildcard type.(Ÿø“íıÿÿÿÿ8™¨º×è1
+C
+java:S14520"&Remove usage of generic wildcard type.(—¨†ì8œ¨º×è1
+H
+java:S1452@"&Remove usage of generic wildcard type.(â¬äøÿÿÿÿ8Ÿ¨º×è1
+H
+java:S1452P"&Remove usage of generic wildcard type.(Ä»‘ÿÿÿÿÿ8 ¨º×è1
